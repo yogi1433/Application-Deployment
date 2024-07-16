@@ -1,0 +1,22 @@
+/* src/components/Register.css */
+.register-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.register-container input,
+.register-container button {
+  margin: 10px;
+  padding: 10px;
+  width: 200px;
+}
+
+@media (max-width: 600px) {
+  .register-container input,
+  .register-container button {
+    width: 150px;
+  }
+}
